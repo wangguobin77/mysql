@@ -1,0 +1,5 @@
+<article style="width:100%;display:flex;flex-grow:0;flex-direction:column;flex-wrap:wrap">
+	<h2>{{(data2|filter:{"id":id})[0].title}}</h2>
+	<h2><a href="#!/edit{{id}}">编辑</a></h2>
+	<div>{{(content|filter:{"id":id})[0].content}}</div>
+</article>

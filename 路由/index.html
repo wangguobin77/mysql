@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<script src="js/angular.js"></script>
+<script src="js/angular-route.min.js"></script>
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<section class="dock">
+		<a href="">新闻</a>
+	</section>
+	<section class="box_container">
+		<div class="left">
+			<li><a href="#!/list">新闻列表</a></li>
+			<li><a href="#!/add">添加</a></li>
+		</div>
+		<div class="right" ng-view>
+			
+		</div>
+	</section>
+</body>
+<script src="js/index.js"></script>
+</html>
